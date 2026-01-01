@@ -47,7 +47,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="text-foreground">furquananwer@gmail.com</p>
+                  <p className="text-foreground">furquan.anwer@gmail.com</p>
                 </div>
               </Link>
 
