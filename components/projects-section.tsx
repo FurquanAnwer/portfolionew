@@ -51,7 +51,7 @@ const projectsData = [
       "A modern personal portfolio built with Next.js, showcasing projects, skills, and experience with a sleek design and fast performance.",
     image: "/developer-portfolio-dark-theme.jpg",
     gitUrl: "https://github.com/FurquanAnwer/portfolio",
-    previewUrl: "https://www.furquananwer.xyz",
+    previewUrl: "https://www.furquan.xyz",
     tag: "Projects",
   },
   {
