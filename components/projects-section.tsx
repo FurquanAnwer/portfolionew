@@ -66,33 +66,25 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Space Invaders",
+    title: "Whack-a-mole",
     description:
-      "A classic arcade-style space shooter game built with JavaScript and Canvas API, featuring multiple levels and high score tracking.",
-    image: "/space-invaders-retro-game-dark-theme.jpg",
-    gitUrl: "https://github.com",
-    previewUrl: "#",
+      "A fast-paced arcade game where players score points by clicking randomly appearing moles within a time limit.",
+    image: "/whack-a-mole.png",
+    gitUrl: "https://github.com/FurquanAnwer/whack-a-mole",
+    previewUrl: "https://whack-a-mole-seven-tau.vercel.app/",
     tag: "Games",
   },
   {
     id: 8,
-    title: "Tic Tac Toe",
+    title: "2048",
     description:
-      "A modern take on the classic Tic Tac Toe game with AI opponent, multiplayer mode, and beautiful animations.",
-    image: "/tic-tac-toe-game-dark-theme-minimalist.jpg",
-    gitUrl: "https://github.com",
-    previewUrl: "#",
+      "A sliding puzzle game where players combine numbered tiles on a grid to reach the 2048 tile through strategic moves.",
+    image: "/2048.png",
+    gitUrl: "https://github.com/FurquanAnwer/2048",
+    previewUrl: "https://2048-chi-nine.vercel.app/",
     tag: "Games",
   },
-  {
-    id: 9,
-    title: "Memory Match",
-    description: "A card matching memory game with multiple difficulty levels, timer, and leaderboard functionality.",
-    image: "/memory-card-matching-game-dark-theme.jpg",
-    gitUrl: "https://github.com",
-    previewUrl: "#",
-    tag: "Games",
-  },
+
 ]
 
 const tags = ["All", "Projects", "Games"]
