@@ -9,13 +9,13 @@ const experiences = [
     title: "Software Engineer",
     company: "Jio",
     period: "2022 - 2024",
-    description: "Building modern web applications using React, Next.js, and Node.js for various clients.",
+    description: "Built and optimized high-availability systems at scale, working with C++ on Linux and React-based internal tools.",
   },
   {
     title: "Software Engineer Intern",
     company: "National Remote Sensing Centre, ISRO",
     period: "2020",
-    description: "Developed responsive user interfaces and implemented complex features using React and TypeScript.",
+    description: "Built automation and data-analysis workflows using JavaScript and Python for large satellite datasets.",
   }
 ]
 
@@ -24,7 +24,7 @@ const education = [
     degree: "Bachelor of Technology",
     institution: "Aligarh Muslim University",
     period: "2018 - 2022",
-    description: "Specialized in software development and data structures.",
+    cgpa : "8.225/10"
   }
 ]
 
@@ -129,7 +129,7 @@ export default function AboutSection() {
                   <span className="text-sm text-muted-foreground">{edu.period}</span>
                   <h4 className="text-lg font-medium text-foreground mt-1">{edu.degree}</h4>
                   <p className="text-muted-foreground text-sm mb-2">{edu.institution}</p>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{edu.description}</p>
+                  <p className="text-muted-foreground text-sm mb-2">{edu.cgpa}</p>
                 </motion.div>
               ))}
             </div>
