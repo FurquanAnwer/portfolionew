@@ -12,24 +12,6 @@ export const metadata: Metadata = {
   title: "Md Furquan Anwer | Full-Stack Developer",
   description:
     "Innovative developer skilled in React and Next.js, dedicated to crafting high-performance web solutions.",
-  generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 const themeScript = `
