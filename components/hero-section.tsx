@@ -32,7 +32,7 @@ export default function HeroSection() {
               View Projects
             </Link>
             <Link
-              href="/resume.pdf"
+              href="/furquanresumenew.pdf"
               target="_blank"
               className="px-6 py-3 border border-border rounded-lg font-medium text-foreground hover:bg-accent transition-colors"
             >
