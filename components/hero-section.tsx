@@ -78,9 +78,9 @@ export default function HeroSection() {
                 <Image
                   src="/professional-developer-portrait-black-white.jpg"
                   alt="Md Furquan Anwer"
-                  width={320}
-                  height={320}
-                  className="w-full h-full object-cover"
+                  width={250}
+                  height={250}
+                  className="w-full object-cover"
                   priority
                 />
               </div>
