@@ -38,18 +38,6 @@ export default function ContactSection() {
             </p>
 
             <div className="space-y-4">
-              <Link
-                href="mailto:furquananwer@gmail.com"
-                className="flex items-center gap-4 p-4 glass rounded-xl hover:bg-accent transition-colors"
-              >
-                <div className="p-2 bg-accent rounded-lg">
-                  <Mail size={20} className="text-foreground" />
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="text-foreground">furquan.anwer@gmail.com</p>
-                </div>
-              </Link>
 
               <Link
                 href="https://github.com/FurquanAnwer"
