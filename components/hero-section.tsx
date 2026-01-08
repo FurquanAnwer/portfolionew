@@ -57,7 +57,7 @@ export default function HeroSection() {
               <Linkedin size={20} className="text-foreground" />
             </Link>
             <Link
-              href="mailto:furquananwer@gmail.com"
+              href="mailto:furquan.anwer@gmail.com"
               className="p-3 glass-card rounded-full hover:bg-accent transition-colors"
             >
               <Mail size={20} className="text-foreground" />
