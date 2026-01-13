@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, X } from "lucide-react"
 import Link from "next/link"
 
 export default function Footer() {
@@ -26,10 +26,11 @@ export default function Footer() {
               <Linkedin size={18} />
             </Link>
             <Link
-              href="mailto:furquananwer@gmail.com"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              href="https://twitter.com/yourusername"
+              target="_blank"
+              className="p-3 glass-card rounded-full hover:bg-accent transition-colors"
             >
-              <Mail size={18} />
+              <X size={20} className="text-foreground" />
             </Link>
           </div>
         </div>

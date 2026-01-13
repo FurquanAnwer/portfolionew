@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowDown, Github, Linkedin, X } from "lucide-react"
 
 export default function HeroSection() {
   return (
@@ -57,11 +57,13 @@ export default function HeroSection() {
               <Linkedin size={20} className="text-foreground" />
             </Link>
             <Link
-              href="mailto:furquananwer@gmail.com"
+              href="https://x.com/furquan_anwer"
+              target="_blank"
               className="p-3 glass-card rounded-full hover:bg-accent transition-colors"
             >
-              <Mail size={20} className="text-foreground" />
+              <X size={20} className="text-foreground" />
             </Link>
+
           </div>
         </motion.div>
 
