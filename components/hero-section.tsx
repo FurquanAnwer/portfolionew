@@ -57,8 +57,7 @@ export default function HeroSection() {
               <Linkedin size={20} className="text-foreground" />
             </Link>
             <Link
-              href="https://x.com/furquan_anwer"
-              target="_blank"
+              href="https://www.x.com/furquan_anwer/"
               className="p-3 glass-card rounded-full hover:bg-accent transition-colors"
             >
               <X size={20} className="text-foreground" />
