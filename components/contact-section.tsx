@@ -5,6 +5,7 @@ import type React from "react"
 import { useRef, useState } from "react"
 import { Github, Linkedin, Send,X } from "lucide-react"
 import Link from "next/link"
+import ContactForm from "./contact-form"
 
 export default function ContactSection() {
   const ref = useRef(null)
@@ -84,68 +85,7 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div className="glass-card rounded-2xl p-8">
-            {submitted ? (
-              <div className="h-full flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-accent flex items-center justify-center">
-                    <Send size={24} className="text-foreground" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Message Sent!</h3>
-                  <p className="text-muted-foreground">Thank you for reaching out. I&apos;ll get back to you soon.</p>
-                </div>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    Your Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    required
-                    className="w-full px-4 py-3 bg-accent/30 border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                    placeholder="you@example.com"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    required
-                    className="w-full px-4 py-3 bg-accent/30 border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                    placeholder="What's this about?"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={4}
-                    required
-                    className="w-full px-4 py-3 bg-accent/30 border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
-                    placeholder="Your message..."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full py-3 bg-foreground text-background rounded-lg font-medium hover:bg-foreground/90 transition-colors flex items-center justify-center gap-2"
-                >
-                  <Send size={18} />
-                  Send Message
-                </button>
-              </form>
-            )}
-          </div>
+          <ContactForm/>
         </div>
       </motion.div>
     </section>
