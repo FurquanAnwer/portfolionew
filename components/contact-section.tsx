@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion"
 import type React from "react"
 
 import { useRef, useState } from "react"
-import { Github, Linkedin, Mail, Send } from "lucide-react"
+import { Github, Linkedin, Send,X } from "lucide-react"
 import Link from "next/link"
 
 export default function ContactSection() {
@@ -66,6 +66,20 @@ export default function ContactSection() {
                   <p className="text-foreground">furquananwer</p>
                 </div>
               </Link>
+              <Link
+                href="https://www.x.com/furquan_anwer/"
+                target="_blank"
+                className="flex items-center gap-4 p-4 glass rounded-xl hover:bg-accent transition-colors"
+              >
+                <div className="p-2 bg-accent rounded-lg">
+                  <X size={20} className="text-foreground" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">X</p>
+                  <p className="text-foreground">furquan_anwer</p>
+                </div>
+              </Link>
+
             </div>
           </div>
 
