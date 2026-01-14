@@ -19,7 +19,7 @@ export default function ProjectCard({ imgUrl, title, description, gitUrl, previe
         <Image src={imgUrl || "/placeholder.svg"} alt={title} fill className="object-cover" />
 
         {/* Overlay with action buttons */}
-        <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+        <div className="absolute inset-0 bg-background/60 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
           <Link
             href={gitUrl}
             target="_blank"
@@ -28,6 +28,7 @@ export default function ProjectCard({ imgUrl, title, description, gitUrl, previe
           >
             <Github size={22} className="text-foreground" />
           </Link>
+        
           <Link
             href={previewUrl}
             target="_blank"
