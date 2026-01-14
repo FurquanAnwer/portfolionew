@@ -4,24 +4,24 @@ import { motion, useInView } from "framer-motion"
 import ProjectCard from "./project-card"
 
 const projectsData = [
-  {
+    {
     id: 1,
+    title: "AI Image Editor",
+    description:
+      "A Next.js-based Image Editor that lets users upload, edit, and manage images in real time with AI-powered features.",
+    image: "/ai-image-editor-dark-theme.jpg",
+    gitUrl: "https://github.com/FurquanAnwer/ImageEditor",
+    previewUrl: "https://image-editor-omega-ten.vercel.app/",
+    tag: "Projects",
+  },  
+  {
+    id: 2,
     title: "ShopMart",
     description:
       "An e-commerce application built using Next.js, featuring a responsive design and user authentication. It includes an Add to Cart functionality.",
     image: "/ecommerce-shopping-website-dark-theme.jpg",
     gitUrl: "https://github.com/FurquanAnwer/Shopmart_hiring",
     previewUrl: "https://hiring-challenge-lake.vercel.app",
-    tag: "Projects",
-  },
-  {
-    id: 2,
-    title: "Youtube Clone",
-    description:
-      "A YouTube clone built using React, offering video searching, video viewing, and commenting features in a user-friendly interface.",
-    image: "/video-streaming-platform-dark-theme.jpg",
-    gitUrl: "https://github.com/FurquanAnwer/youtube-clone",
-    previewUrl: "https://yclone-three.vercel.app/",
     tag: "Projects",
   },
   {
@@ -36,32 +36,32 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "Portfolio",
+    description:
+      "A modern personal portfolio built with Next.js, showcasing projects, skills, and experience with a sleek design and fast performance.",
+    image: "/developer-portfolio-dark-theme.jpg",
+    gitUrl: "https://github.com/FurquanAnwer/portfolionew",
+    previewUrl: "https://www.furquan.xyz",
+    tag: "Projects",
+  }, 
+  {
+    id: 5,
+    title: "Youtube Clone",
+    description:
+      "A YouTube clone built using React, offering video searching, video viewing, and commenting features in a user-friendly interface.",
+    image: "/video-streaming-platform-dark-theme.jpg",
+    gitUrl: "https://github.com/FurquanAnwer/youtube-clone",
+    previewUrl: "https://yclone-three.vercel.app/",
+    tag: "Projects",
+  },
+  {
+    id: 6,
     title: "React Quiz",
     description:
       "A React quiz application leveraging the useReducer hook for state management, providing a dynamic and interactive user experience.",
     image: "/quiz-application-dark-theme.jpg",
     gitUrl: "https://github.com/FurquanAnwer/quizai",
     previewUrl: "https://quizai-gamma.vercel.app/",
-    tag: "Projects",
-  },
-  {
-    id: 5,
-    title: "Portfolio",
-    description:
-      "A modern personal portfolio built with Next.js, showcasing projects, skills, and experience with a sleek design and fast performance.",
-    image: "/developer-portfolio-dark-theme.jpg",
-    gitUrl: "https://github.com/FurquanAnwer/portfolio",
-    previewUrl: "https://www.furquan.xyz",
-    tag: "Projects",
-  },
-  {
-    id: 6,
-    title: "AI Image Editor",
-    description:
-      "A Next.js-based Image Editor that lets users upload, edit, and manage images in real time with AI-powered features.",
-    image: "/ai-image-editor-dark-theme.jpg",
-    gitUrl: "https://github.com/FurquanAnwer/ImageEditor",
-    previewUrl: "https://image-editor-omega-ten.vercel.app/",
     tag: "Projects",
   },
   {
@@ -83,8 +83,7 @@ const projectsData = [
     gitUrl: "https://github.com/FurquanAnwer/2048",
     previewUrl: "https://2048-chi-nine.vercel.app/",
     tag: "Games",
-  },
-
+  }
 ]
 
 const tags = ["All", "Projects", "Games"]
