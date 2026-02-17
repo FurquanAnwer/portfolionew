@@ -9,8 +9,7 @@ const experiences = [
     title: "Software Engineer",
     company: "Jio",
     period: "2022 - 2024",
-    description: "Worked on large-scale production systems serving 100M+ users, improving reliability and performance while building internal tools and contributing across the stack.
-    ",
+    description: "Worked on large-scale production systems serving 100M+ users, improving reliability and performance while building internal tools and contributing across the stack.",
   },
   {
     title: "Software Engineer Intern",
