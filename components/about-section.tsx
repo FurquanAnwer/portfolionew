@@ -30,6 +30,7 @@ const education = [
 
 const skills = [
   "React",
+  "React Native",
   "Next.js",
   "TypeScript",
   "JavaScript",
@@ -40,7 +41,9 @@ const skills = [
   "Supabase",
   "Git",
   "REST APIs",
-  "Docker"
+  "Docker",
+  "Solana",
+  "Anchor"  
 ]
 
 export default function AboutSection() {
